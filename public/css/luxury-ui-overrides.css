@@ -1,0 +1,178 @@
+/* Global Luxury Brand Enhancements */
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #FFFFFF;
+    color: #111111;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .knp-serif, .knp-modern-heading {
+    font-family: "Cormorant Garamond", Georgia, serif !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.text-brand, .bg-brand {
+    background-color: #B40016 !important;
+    color: #FFFFFF !important;
+}
+
+/* Header Enhancements */
+.header-area {
+    background: #000 !important; /* Top banner dark */
+}
+.knp-main-navigation {
+    background-color: #FFFFFF !important;
+}
+.knp-header-top {
+    background: #B40016 !important; /* Dark red top bar */
+}
+.coupon-ticker-item {
+    color: #FFFFFF;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 11px;
+}
+
+/* Home Hero Section */
+.knp-hero-modern {
+    background-position: center center;
+}
+.hero-content h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(48px, 6vw, 84px);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+.hero-content p.knp-about-lead {
+    font-size: clamp(14px, 2vw, 18px);
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.btn-knp-luxury {
+    background-color: #B40016;
+    color: #FFFFFF;
+    border: 1px solid #B40016;
+    padding: 18px 40px;
+    border-radius: 4px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.btn-knp-luxury:hover {
+    background-color: #FFFFFF;
+    color: #B40016;
+}
+
+/* Feature Bar */
+.category-strip {
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    background: #FAFAFA;
+    padding: 20px 0;
+}
+.cat-nav-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    animation: none !important;
+    gap: 20px;
+}
+.cat-nav-list li a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.cat-nav-list img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 0; /* Icons rather than photos */
+}
+
+/* Categories - Discover Your Style */
+.best-seller-heading-copy h2 {
+    font-size: clamp(32px, 4vw, 42px) !important;
+    letter-spacing: 2px !important;
+}
+.discover-category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 40px 0;
+}
+.discover-category-image {
+    aspect-ratio: 3/4;
+    border-radius: 0;
+}
+.discover-category-copy {
+    text-align: center;
+    padding-top: 15px;
+}
+.discover-category-copy h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Signature Box Section */
+.featured-combos {
+    background: #F8F8F8;
+    padding: 80px 0;
+}
+.combo-section-heading {
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(36px, 5vw, 54px);
+    margin-bottom: 50px;
+}
+
+/* Philosophy / Story Section */
+.brand-philosophy-section {
+    background: #111;
+    color: #FFF;
+}
+.brand-philosophy-kicker {
+    color: #B40016;
+}
+.brand-philosophy-title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(28px, 4vw, 48px);
+    color: #FFFFFF;
+    line-height: 1.3;
+}
+
+/* Responsive Fixes */
+@media (max-width: 991px) {
+    .discover-category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 767px) {
+    .cat-nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .btn-knp-luxury {
+        padding: 12px 24px;
+        font-size: 11px;
+    }
+}

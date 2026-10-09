@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+
+Template: Theme Name
+Author: 
+Version:  1
+Design and Developed by: 
+
+Note: This is the file where you can add your custom styles to change the look of the theme. But don't modify "style.css" file.
+
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom css code here: 
+-------------------------------------------------------*/
+
+/* Shared responsive safeguards. Keep these after the legacy theme files so
+   every storefront page receives the same fluid small-screen behaviour. */
+html { overflow-x: hidden; }
+body, .wrapper { max-width: 100%; overflow-x: clip; }
+img, picture, svg, video, canvas, iframe { max-width: 100%; }
+img, video { height: auto; }
+input, select, textarea, button { max-width: 100%; }
+.table-responsive { -webkit-overflow-scrolling: touch; overflow-x: auto; overflow-y: hidden; }
+.modal-dialog { max-width: calc(100vw - 30px); }
+
+@media (max-width: 767.98px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    max-width: 100%; padding-left: 16px; padding-right: 16px; width: 100%;
+  }
+  .row { --bs-gutter-x: 24px; }
+  h1 { overflow-wrap: anywhere; }
+  .bread-main { padding-left: 0; padding-right: 0; }
+  .bread-main ul, .bread-main ol { display: flex; flex-wrap: wrap; gap: 4px 8px; }
+  .table-responsive { border: 0; margin-left: 0; margin-right: 0; width: 100%; }
+  .modal-dialog { margin: 15px auto; width: calc(100% - 30px); }
+  .modal-product, .modal-product .product-images, .modal-product .product-info { float: none; width: 100%; }
+  .modal-product .product-info { padding-left: 0; }
+  input:not([type="checkbox"]):not([type="radio"]), select, textarea { font-size: 16px; }
+  .btn, button, input[type="submit"], input[type="button"] { min-height: 44px; }
+}
+
+@media (max-width: 359.98px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    padding-left: 12px; padding-right: 12px;
+  }
+}
+/* Shared About artwork banner: About, Blog, Cart and Wishlist pages. */
+.about-shared-banner {
+  background-image: url("../images/banner/about.png") !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  min-height: 515px;
+}
+.about-shared-banner.overlay::before {
+  background: rgba(0, 0, 0, .38);
+}
+.about-shared-banner .bread-main {
+  background: transparent;
+}
+@media (max-width: 575.98px) {
+  .about-shared-banner {
+    min-height: 150px;
+  }
+}
