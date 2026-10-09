@@ -231,6 +231,23 @@
             margin-bottom: 16px;
         }
 
+        .journal-description a,
+        .journal-content-link {
+            color: #b40016;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            font-weight: 600;
+            word-break: break-all;
+            transition: color 0.2s ease, text-decoration 0.2s ease;
+        }
+
+        .journal-description a:hover,
+        .journal-content-link:hover {
+            color: #8b0011;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+        }
+
         /* 5. SIDEBAR */
         .journal-sidebar {
             align-self: start;
@@ -528,7 +545,22 @@
                             {{ \Carbon\Carbon::parse($blog->date)->format('d M Y') }}
                         </time>
                     </header>
-                    <div class="journal-description">{!! nl2br(e($blog->description)) !!}</div>
+                    @php
+                        $rawDesc = $blog->description ?? '';
+                        $hasHtmlTags = $rawDesc !== strip_tags($rawDesc);
+                        if ($hasHtmlTags) {
+                            $renderedBlogContent = $rawDesc;
+                        } else {
+                            $escapedDesc = e($rawDesc);
+                            $linkedDesc = preg_replace(
+                                '~(?<!["\'])(https?://[^\s<]+)~i',
+                                '<a href="$1" target="_blank" rel="noopener noreferrer" class="journal-content-link">$1</a>',
+                                $escapedDesc
+                            );
+                            $renderedBlogContent = nl2br($linkedDesc);
+                        }
+                    @endphp
+                    <div class="journal-description">{!! $renderedBlogContent !!}</div>
                 </article>
             </div>
 

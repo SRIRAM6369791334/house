@@ -1100,7 +1100,7 @@
         position: relative;
     }
     .phil-image-col {
-        flex: 0 0 380px;
+        flex: 0 0 340px;
         position: relative;
         z-index: 1;
         margin: 0;
@@ -1155,15 +1155,17 @@
         background: #0C0A09;
         width: 100%;
         height: 100%;
+        aspect-ratio: 1/1;
         display: block;
     }
     .phil-image-holder img {
         position: relative;
         z-index: 2;
         width: 100%;
-        height: auto;
-        aspect-ratio: 4/5;
+        height: 100%;
+        aspect-ratio: 1/1;
         object-fit: cover;
+        object-position: center top;
         display: block;
     }
     .phil-content-col {
@@ -1178,7 +1180,7 @@
         text-align: center;
     }
     .phil-video-col {
-        flex: 0 0 320px;
+        flex: 0 0 340px;
         position: relative;
         z-index: 1;
         margin-left: 0;
@@ -1956,10 +1958,21 @@
     @media (max-width: 767px) {
         /* 1. Hero Section */
         .hero-section {
-            min-height: 85vh !important;
-            height: auto;
+            min-height: clamp(480px, 68vh, 580px) !important;
+            height: 70vh !important;
+            max-height: 600px !important;
             position: relative;
             overflow: hidden;
+        }
+        .hero-slide video,
+        .hero-slide .hero-static-bg {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            object-position: center center !important;
+            background-size: cover !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
         }
         .hero-container {
             padding: 115px 16px 50px !important;
@@ -3056,7 +3069,7 @@
     <section class="philosophy-section" aria-label="Atelier Philosophy">
         <div class="phil-container">
             <div class="phil-col phil-image-col reveal">
-                <div class="phil-border-frame">
+                <div class="phil-border-frame" style="aspect-ratio: 1/1;">
                     <div class="phil-border-spinner"></div>
                     <div class="phil-image-holder">
                         @if($philosophyImageUrl !== '')

@@ -778,9 +778,19 @@
                 $defaultHeroImg = 'box.png';
             }
 
+            $globalShopBanner = null;
+            if (isset($shopBanner) && !empty($shopBanner->image)) {
+                $globalShopBanner = house_main_media_url($shopBanner->image, 'images');
+            } else {
+                $dbBanner = \Illuminate\Support\Facades\DB::table('banners')->latest('id')->value('banner_image');
+                if ($dbBanner) {
+                    $globalShopBanner = house_main_media_url($dbBanner, 'images');
+                }
+            }
+
             $heroBannerSrc = !empty($currentCategory?->category_banner) 
                 ? house_category_banner_url($currentCategory->category_banner, $defaultHeroImg) 
-                : asset('images/banner/' . $defaultHeroImg);
+                : ($globalShopBanner ?: asset('images/banner/' . $defaultHeroImg));
         @endphp
         <div class="hero-section">
             <img src="{{ $heroBannerSrc }}" onerror="this.src='{{ asset('images/banner/' . $defaultHeroImg) }}'" alt="{{ $pageTitle }}" class="hero-image">
@@ -1315,13 +1325,26 @@
                                 @endif
                             </div> --}}
                             <h3 class="product-title">{{ $product->product_name }}</h3>
+                            @php
+                                $itemCatLower = strtolower($product->category_name ?? $product->cate_name ?? $reqCat ?? '');
+                            @endphp
                             <div class="product-subtitle">
-                                @if($reqCat == 'perfume')
-                                    {{ $product->size ?? '50ML' }}
-                                @elseif($reqCat == 'watches' || $reqCat == 'watch')
-                                    {{ $product->size ?? 'Standard' }}
+                                @if(str_contains($itemCatLower, 'perfume') || str_contains($itemCatLower, 'fragrance'))
+                                    {{ $product->size ?: '50ML' }}
+                                @elseif(str_contains($itemCatLower, 'watch'))
+                                    {{ $product->size ?: 'Standard' }}
+                                @elseif(str_contains($itemCatLower, 'shirt') || str_contains($itemCatLower, 'apparel'))
+                                    {{ $product->fit ?: 'Tailored Fit' }}
+                                @elseif(!empty($product->fit))
+                                    {{ $product->fit }}
+                                @elseif(!empty($product->subcate_name))
+                                    {{ $product->subcate_name }}
+                                @elseif(!empty($product->category_name))
+                                    {{ $product->category_name }}
+                                @elseif(!empty($product->cate_name))
+                                    {{ $product->cate_name }}
                                 @else
-                                    {{ $product->fit ?? 'Regular Fit' }}
+                                    {{ $product->size ?? '' }}
                                 @endif
                             </div>
 

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('meta_title', 'Corporate Gifting & Bulk Orders | House of KNP')
-@section('meta_description', 'Bespoke corporate gifting, bulk orders, and custom merchandise from House of KNP. Luxury watches, premium cotton shirts, French perfumes, and curated gift boxes with volume pricing and custom engraving.')
+@section('meta_title', 'Premium Corporate Gifting & Bulk Orders | House of KNP')
+@section('meta_description', 'Premium corporate gifting and bulk orders from House of KNP. Luxury watches, premium cotton shirts, French perfumes, and curated gift boxes with quantity pricing and reliable delivery.')
 
 @section('content')
 <style>
@@ -1414,22 +1414,22 @@
                     <div class="bulk-hero-content bulk-reveal">
                         <div class="bulk-hero-badge">
                             <div class="pulsing-dot"></div>
-                            <span>Bespoke Corporate Gifting &amp; Bulk Concierge</span>
+                            <span>PREMIUM CORPORATE GIFTING &amp; BULK ORDERS</span>
                         </div>
                         <h1 class="bulk-hero-title knp-serif-title">
-                            Elevate Your Brand With<br><span>Timeless Distinction.</span>
+                            Make Every Gift<br><span>Feel Distinctive.</span>
                         </h1>
                         <p class="bulk-hero-desc">
-                            Tailored bulk procurement solutions for corporate milestones, executive recognition, festive gifting, and wedding honors. Enjoy direct volume privileges, custom laser engraving, and white-glove doorstep delivery.
+                            Premium men's shirts, fragrances, watches and curated gift boxes for corporate gifting, celebrations and special occasions. Choose from our collection or speak with our team to create a gifting experience tailored to your requirement.
                         </p>
                         <div class="bulk-hero-actions">
                             <a href="#bulk-inquiry-form" class="btn-primary-glass">
                                 <i class="fa fa-envelope-open-o"></i>
-                                <span>Request Bulk Quotation</span>
+                                <span>REQUEST A BULK QUOTE</span>
                             </a>
                             <a href="https://wa.me/916374390907?text=Hello%20House%20of%20KNP%2C%20I%20am%20interested%20in%20corporate%20gifting%20and%20bulk%20orders." target="_blank" rel="noopener" class="btn-outline-luxury">
                                 <i class="fa fa-whatsapp text-success" style="font-size: 16px;"></i>
-                                <span>Chat With VIP Concierge</span>
+                                <span>CHAT WITH OUR TEAM</span>
                             </a>
                         </div>
                         <div class="bulk-hero-badges-row">
@@ -1458,25 +1458,25 @@
                         <div class="text-center mb-4">
                             <img src="{{ asset('images/logo/logoo.png') }}" alt="House of KNP" style="height: 68px; object-fit: contain; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));">
                             <p style="color: rgba(255,255,255,0.7); font-size: 11.5px; letter-spacing: 2.5px; text-transform: uppercase; margin-top: 12px; font-weight: 600;">
-                                The Gold Standard in Corporate Gifting
+                                PREMIUM GIFTING, CURATED FOR MEN
                             </p>
                         </div>
                         <div class="bulk-hero-stats-grid">
                             <div class="bulk-hero-stat-item">
                                 <div class="bulk-hero-stat-num">100%</div>
-                                <p class="bulk-hero-stat-label">Handcrafted Quality</p>
+                                <p class="bulk-hero-stat-label">PREMIUM PRODUCT SELECTION</p>
                             </div>
                             <div class="bulk-hero-stat-item">
                                 <div class="bulk-hero-stat-num">25+</div>
-                                <p class="bulk-hero-stat-label">Flexible MOQ</p>
+                                <p class="bulk-hero-stat-label">FLEXIBLE ORDER QUANTITIES</p>
                             </div>
                             <div class="bulk-hero-stat-item">
                                 <div class="bulk-hero-stat-num">2 hrs</div>
-                                <p class="bulk-hero-stat-label">Fast Quote Response</p>
+                                <p class="bulk-hero-stat-label">QUICK QUOTE SUPPORT</p>
                             </div>
                             <div class="bulk-hero-stat-item">
                                 <div class="bulk-hero-stat-num">All-India</div>
-                                <p class="bulk-hero-stat-label">Insured Express Shipping</p>
+                                <p class="bulk-hero-stat-label">PAN-INDIA DELIVERY SUPPORT</p>
                             </div>
                         </div>
                     </div>
@@ -1498,18 +1498,18 @@
                     <span class="divider-gem"></span>
                     <span class="divider-line"></span>
                 </div>
-                <p>We combine bespoke Indian craftsmanship with dependable institutional fulfillment.</p>
+                <p>Premium men's gifting, thoughtful curation and dependable service for every bulk order.</p>
             </div>
 
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 col-6 bulk-reveal">
                     <div class="bulk-value-card">
                         <div class="bulk-value-icon">
-                            <i class="fa fa-paint-brush"></i>
+                            <i class="fa fa-gift"></i>
                         </div>
-                        <h3 class="bulk-value-title">Bespoke Personalization</h3>
+                        <h3 class="bulk-value-title">Curated Gifting</h3>
                         <p class="bulk-value-text">
-                            Custom company logo engraving on watch casebacks, monogrammed shirt cuffs, bespoke packaging sleeves, and custom wax-sealed greeting cards.
+                            Choose from premium shirts, fragrances, watches and Signature Boxes to create a gifting experience that feels considered, refined and distinctly HOUSE OF KNP.
                         </p>
                     </div>
                 </div>
@@ -1519,9 +1519,9 @@
                         <div class="bulk-value-icon">
                             <i class="fa fa-line-chart"></i>
                         </div>
-                        <h3 class="bulk-value-title">Volume Tier Privileges</h3>
+                        <h3 class="bulk-value-title">Bulk Order Value</h3>
                         <p class="bulk-value-text">
-                            Transparent tiered wholesale pricing structures directly from the atelier, ensuring maximum value and premium ROI for institutional budgets.
+                            Access quantity-based pricing and curated product combinations designed to suit your gifting requirements and budget.
                         </p>
                     </div>
                 </div>
@@ -1531,9 +1531,9 @@
                         <div class="bulk-value-icon">
                             <i class="fa fa-user"></i>
                         </div>
-                        <h3 class="bulk-value-title">Dedicated Concierge</h3>
+                        <h3 class="bulk-value-title">Personalized Support</h3>
                         <p class="bulk-value-text">
-                            Your personal corporate account manager coordinates sample prototyping, custom colorways, packaging proofs, and synchronized dispatches.
+                            From product selection to quantities and delivery requirements, our team works with you to build an order that fits your occasion and needs.
                         </p>
                     </div>
                 </div>
@@ -1543,9 +1543,9 @@
                         <div class="bulk-value-icon">
                             <i class="fa fa-truck"></i>
                         </div>
-                        <h3 class="bulk-value-title">Pan-India Multi-Drop</h3>
+                        <h3 class="bulk-value-title">Pan-India Delivery</h3>
                         <p class="bulk-value-text">
-                            Seamless white-glove fulfillment. We deliver single bulk pallets to headquarters or ship individual gift parcels directly to 500+ remote employee doorsteps.
+                            Coordinate your bulk gifting requirements with delivery support across India, subject to product availability and destination.
                         </p>
                     </div>
                 </div>
@@ -1675,39 +1675,39 @@
                     <span class="divider-gem" style="background: var(--knp-gold);"></span>
                     <span class="divider-line" style="background: rgba(201, 162, 39, 0.4);"></span>
                 </div>
-                <p>From initial brief to synchronized multi-destination delivery.</p>
+                <p>From your initial requirement to a carefully prepared delivery.</p>
             </div>
 
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 col-6 bulk-reveal">
                     <div class="process-step-item">
                         <div class="process-step-num">01</div>
-                        <h3 class="process-step-title">Inquiry &amp; Consultation</h3>
-                        <p class="process-step-text">Share your expected quantity, budget parameters, and timeline through our form or direct VIP concierge.</p>
+                        <h3 class="process-step-title">Share Your Requirement</h3>
+                        <p class="process-step-text">Tell us your preferred products, quantity, occasion, budget and delivery requirements through our bulk enquiry form.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-6 bulk-reveal" style="transition-delay: 100ms;">
                     <div class="process-step-item">
                         <div class="process-step-num">02</div>
-                        <h3 class="process-step-title">3D Mockups &amp; Sample</h3>
-                        <p class="process-step-text">We generate digital renders with your company logo and dispatch physical evaluation prototypes within 48 hours.</p>
+                        <h3 class="process-step-title">Curate Your Selection</h3>
+                        <p class="process-step-text">Our team will recommend suitable products and gifting combinations based on your requirements, availability and budget.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-6 bulk-reveal" style="transition-delay: 200ms;">
                     <div class="process-step-item">
                         <div class="process-step-num">03</div>
-                        <h3 class="process-step-title">Precision Crafting</h3>
-                        <p class="process-step-text">Our artisans manufacture your order, perform multi-point quality control, and package each unit in bespoke gift presentation.</p>
+                        <h3 class="process-step-title">Confirm Your Order</h3>
+                        <p class="process-step-text">Review your product selection, quantities, pricing and delivery details before confirming your bulk order with our team.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-6 bulk-reveal" style="transition-delay: 300ms;">
                     <div class="process-step-item">
                         <div class="process-step-num">04</div>
-                        <h3 class="process-step-title">Insured Doorstep Dispatch</h3>
-                        <p class="process-step-text">Consolidated shipment to your headquarters or individual white-glove dispatches with real-time SMS/Email tracking.</p>
+                        <h3 class="process-step-title">Prepared &amp; Delivered</h3>
+                        <p class="process-step-text">Once confirmed, your order is carefully prepared and dispatched to your specified delivery location across India.</p>
                     </div>
                 </div>
             </div>
@@ -1724,9 +1724,9 @@
                 <div class="col-lg-8 bulk-reveal">
                     <div class="inquiry-form-card">
                         <div class="section-head" style="text-align: left; margin-left: 0; margin-bottom: 40px;">
-                            <span class="section-kicker-tag">Request Quotation</span>
-                            <h2>Corporate Gifting Inquiry</h2>
-                            <p>Fill out your requirements below and our corporate concierge will respond with a tailored proposal within 2 hours.</p>
+                            <span class="section-kicker-tag">REQUEST A BULK QUOTE</span>
+                            <h2>Bulk Order Inquiry</h2>
+                            <p>Tell us what you need, and our team will help you find the right products, quantities and gifting options for your occasion.</p>
                         </div>
 
                         @if(session('success'))
@@ -1818,7 +1818,7 @@
 
                                 <div class="col-12">
                                     <div class="form-group-luxury">
-                                        <label for="message" class="form-label-luxury">Project Scope, Quantity &amp; Custom Requirements</label>
+                                        <label for="message" class="form-label-luxury">Quantity &amp; Requirements</label>
                                         <textarea id="message" name="message" class="form-control-luxury" rows="4" placeholder="Tell us about your estimated quantity (e.g. 50 units), preferred delivery timeline, branding/customization requests, or any specific notes...">{{ old('message') }}</textarea>
                                     </div>
                                 </div>
@@ -1826,7 +1826,7 @@
                                 <div class="col-12 mt-3">
                                     <button type="submit" id="submitBulkBtn" class="btn-bulk-submit">
                                         <i class="fa fa-paper-plane"></i>
-                                        <span>Submit Bulk Quotation Request</span>
+                                        <span>REQUEST MY BULK QUOTE</span>
                                     </button>
                                 </div>
                             </div>
@@ -1840,11 +1840,11 @@
                         <div class="vip-concierge-card">
                             <div class="vip-badge-pill">
                                 <i class="fa fa-star"></i>
-                                <span>Priority Concierge</span>
+                                <span>BULK ORDER ASSISTANCE</span>
                             </div>
-                            <h3 class="vip-concierge-title knp-serif-title">Instant VIP Assistance</h3>
+                            <h3 class="vip-concierge-title knp-serif-title">Let's Plan Your Order</h3>
                             <p class="vip-concierge-desc">
-                                Prefer an immediate conversation? Our institutional gifting leads are available for instant consultation.
+                                Have a specific requirement? Speak with our team about products, quantities, gifting combinations and delivery requirements.
                             </p>
 
                             <!-- WhatsApp -->
@@ -1882,15 +1882,15 @@
 
                             <!-- VIP Perks List -->
                             <ul class="vip-perks-list">
-                                <li><i class="fa fa-check-circle"></i> Direct Dedicated Account Manager</li>
-                                <li><i class="fa fa-check-circle"></i> Free 3D Digital Prototyping</li>
-                                <li><i class="fa fa-check-circle"></i> Custom Packaging Proofs in 48h</li>
-                                <li><i class="fa fa-check-circle"></i> Pan-India Insured Delivery</li>
+                                <li><i class="fa fa-check-circle"></i> Product &amp; Gifting Guidance</li>
+                                <li><i class="fa fa-check-circle"></i> Flexible Product Selection</li>
+                                <li><i class="fa fa-check-circle"></i> Bulk Order Pricing</li>
+                                <li><i class="fa fa-check-circle"></i> Pan-India Delivery Support</li>
                             </ul>
 
                             <div class="gst-assurance-banner">
                                 <i class="fa fa-file-text-o" style="font-size: 18px; color: var(--knp-gold);"></i>
-                                <span>Official GST Tax Invoice issued with input tax credit eligibility.</span>
+                                <span>GST INVOICE AVAILABLE FOR ELIGIBLE BUSINESS ORDERS</span>
                             </div>
                         </div>
                     </div>
@@ -1919,66 +1919,132 @@
                 <!-- FAQ 1 -->
                 <div class="faq-accordion-item active">
                     <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
-                        <span>What is the Minimum Order Quantity (MOQ) for corporate gifting?</span>
+                        <span>01. What products can I order in bulk?</span>
                         <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
                     </button>
                     <div class="faq-accordion-content">
-                        Our standard MOQ for corporate volume pricing starts at 25 units per category. For bespoke custom colorways or custom fragrance formulations, our MOQ is typically 50 units.
+                        HOUSE OF KNP offers bulk orders across our men's shirts, fragrances, watches and Signature Gift Boxes, subject to product availability.
                     </div>
                 </div>
 
                 <!-- FAQ 2 -->
                 <div class="faq-accordion-item">
                     <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
-                        <span>Can we request physical samples before confirming our final order?</span>
+                        <span>02. Can I order different products together?</span>
                         <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
                     </button>
                     <div class="faq-accordion-content">
-                        Yes. After your initial consultation, we can dispatch physical product and packaging evaluation samples directly to your office. Sample costs are fully credited toward your confirmed bulk purchase.
+                        Yes. You can create a mixed bulk order combining different HOUSE OF KNP products, subject to availability and the requirements of your order.
                     </div>
                 </div>
 
                 <!-- FAQ 3 -->
                 <div class="faq-accordion-item">
                     <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
-                        <span>What customization options are available for company branding?</span>
+                        <span>03. Can I choose different shirt colours and sizes?</span>
                         <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
                     </button>
                     <div class="faq-accordion-content">
-                        We offer high-precision laser engraving on watch casebacks and clasps, custom embroidered monograms on shirt cuffs, custom screen-printed rigid gift chests, branded satin ribbons, and bespoke message cards.
+                        Yes. Bulk shirt orders can include different colours and sizes, subject to available stock. You can share your required quantity by colour and size with our team.
                     </div>
                 </div>
 
                 <!-- FAQ 4 -->
                 <div class="faq-accordion-item">
                     <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
-                        <span>Can you handle direct deliveries to remote employee homes across India?</span>
+                        <span>04. Do you offer special pricing for bulk orders?</span>
                         <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
                     </button>
                     <div class="faq-accordion-content">
-                        Absolutely. Simply provide us with a secure recipient dispatch list (names, addresses, phone numbers) and our logistics team will manage insured doorstep delivery across 27,000+ pincodes in India with automated live tracking.
+                        Yes. Bulk-order pricing can vary according to the products and quantities selected. Share your requirements with us and we'll provide a quotation based on your order.
                     </div>
                 </div>
 
                 <!-- FAQ 5 -->
                 <div class="faq-accordion-item">
                     <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
-                        <span>Do you provide GST compliant business invoices?</span>
+                        <span>05. Can I customize the gifting combination?</span>
                         <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
                     </button>
                     <div class="faq-accordion-content">
-                        Yes, 100% of our corporate orders are accompanied by official GST invoices featuring your company's registered GSTIN, enabling full input tax credit (ITC) claims.
+                        Yes. Depending on the products and quantity, we can discuss suitable combinations of shirts, fragrances, watches and Signature Boxes to match your occasion and budget.
                     </div>
                 </div>
 
                 <!-- FAQ 6 -->
                 <div class="faq-accordion-item">
                     <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
-                        <span>What are your production and dispatch lead times?</span>
+                        <span>06. Can I place a bulk order for corporate gifting?</span>
                         <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
                     </button>
                     <div class="faq-accordion-content">
-                        Ready-to-ship catalog items with basic packaging dispatch within 3-5 business days. Customized orders with laser engraving or custom boxes typically require 7-12 business days depending on volume.
+                        Yes. HOUSE OF KNP bulk orders can be used for employee appreciation, client gifting, festive gifting, corporate events, milestones and other business occasions.
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="faq-accordion-item">
+                    <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
+                        <span>07. Can I place bulk orders for weddings and special occasions?</span>
+                        <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
+                    </button>
+                    <div class="faq-accordion-content">
+                        Yes. Our products and Signature Gift Boxes can also be considered for weddings, celebrations, groomsmen gifting and other special occasions.
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="faq-accordion-item">
+                    <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
+                        <span>08. Do you provide GST invoices for bulk orders?</span>
+                        <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
+                    </button>
+                    <div class="faq-accordion-content">
+                        Yes. GST invoices can be provided for eligible business orders. Please share your billing details when submitting your enquiry.
+                    </div>
+                </div>
+
+                <!-- FAQ 9 -->
+                <div class="faq-accordion-item">
+                    <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
+                        <span>09. Where do you deliver bulk orders?</span>
+                        <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
+                    </button>
+                    <div class="faq-accordion-content">
+                        We accept bulk-order enquiries for delivery across India. Delivery timelines and charges may vary depending on the order and destination.
+                    </div>
+                </div>
+
+                <!-- FAQ 10 -->
+                <div class="faq-accordion-item">
+                    <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
+                        <span>10. How long does a bulk order take?</span>
+                        <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
+                    </button>
+                    <div class="faq-accordion-content">
+                        The timeline depends on the products selected, quantity, stock availability, any customization requirements and delivery location. Our team will confirm the expected timeline during the quotation process.
+                    </div>
+                </div>
+
+                <!-- FAQ 11 -->
+                <div class="faq-accordion-item">
+                    <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
+                        <span>11. Can I request a sample before placing a large order?</span>
+                        <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
+                    </button>
+                    <div class="faq-accordion-content">
+                        Sample availability depends on the product and requirement. If you would like to review a product before confirming your bulk order, mention this in your enquiry and our team will guide you.
+                    </div>
+                </div>
+
+                <!-- FAQ 12 -->
+                <div class="faq-accordion-item">
+                    <button class="faq-accordion-trigger" onclick="toggleFaq(this)" type="button">
+                        <span>12. How do I get a quotation for my bulk order?</span>
+                        <div class="faq-accordion-icon"><i class="fa fa-chevron-down"></i></div>
+                    </button>
+                    <div class="faq-accordion-content">
+                        Simply submit the Bulk Order Inquiry form with your preferred products, approximate quantity, occasion, budget and delivery requirements. Our team will review your requirement and get in touch with you.
                     </div>
                 </div>
             </div>
